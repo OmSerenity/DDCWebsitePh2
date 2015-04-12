@@ -56,12 +56,34 @@ body {
   font-family: 'Montserrat', sans-serif; 
   color: #FFFFFF; 
   font-weight: 700;
+  display: inline-block;
 }
 
-.clear{
+.response {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.clear {
   float: center;
   margin-top: 10px;
  }
+
+input {
+  width: 350px;
+  height: 30px;
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+ /* font-size: 20px;*/
+  color: white;
+  background: black;
+  border-color: black;
+  width: 100px;
+  height: 30px;
+}
 
 .body-wrap {
   background:#F5F5F5;
